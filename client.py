@@ -7,7 +7,7 @@ def main():
     clientSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     clientSocket.connect((serverName, serverPort))
     print("\n************************************************************")
-    print("***                 Simple Chatting APP 1.0.0            ***")
+    print("***                   Simple Chat APP 1.0.0              ***")
     print(f"***                {clientSocket.recv(1024).decode('utf-8')}               ***")
     print("***   Send your message in format '#clientID:message'    ***")
     print("***   Send '/getlist' to update available client list    ***")
