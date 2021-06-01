@@ -11,3 +11,6 @@ in format `#clientID:message` to send message to that clientID, `/getlist`
 to update available client list, `/getblocklist` to see blocklist,
 `/block clientID` to block a client, `/unblock clientID` to unblock a client,
 and `.exit` to disconnect from server
+
+## Screenshot
+- ![plot](./images/screenshot.png)
